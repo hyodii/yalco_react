@@ -1,4 +1,6 @@
 export const renderStars = (rating) => {
+  console.log("rating===>", rating)
+  console.log("별 찍기===>", '★'.repeat(rating) + '☆'.repeat(5 - rating))
   return '★'.repeat(rating) + '☆'.repeat(5 - rating)
 }
 
